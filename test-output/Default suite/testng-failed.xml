@@ -6,7 +6,6 @@
       <class name="Verify.Login">
         <methods>
           <include name="case2"/>
-          <include name="case1"/>
         </methods>
       </class> <!-- Verify.Login -->
     </classes>
