@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Login {
 	@Test
-	public void ClientAdmin() throws InterruptedException {
+	public void ClientAdminUser() throws InterruptedException {
 		System.out.println(" Executing SAF urls");
 		System.setProperty("webdriver.chrome.driver", "F:\\Continues Integration & Testing\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
@@ -23,7 +23,7 @@ public class Login {
 	}
 
 	@Test
-	public void Manager() throws InterruptedException {
+	public void ManagerUser() throws InterruptedException {
 		System.out.println(" Executing SAF urls...");
 		System.setProperty("webdriver.chrome.driver", "F:\\Continues Integration & Testing\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();

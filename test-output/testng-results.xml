@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30368" started-at="2018-08-14T06:52:39Z" finished-at="2018-08-14T06:53:09Z">
+  <suite name="Default suite" duration-ms="82761" started-at="2018-08-14T13:06:38Z" finished-at="2018-08-14T13:08:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30368" started-at="2018-08-14T06:52:39Z" finished-at="2018-08-14T06:53:09Z">
+    <test name="Default test" duration-ms="82761" started-at="2018-08-14T13:06:38Z" finished-at="2018-08-14T13:08:01Z">
       <class name="Verify.Login">
-        <test-method status="PASS" signature="ClientAdmin()[pri:0, instance:Verify.Login@8bd1b6a]" name="ClientAdmin" duration-ms="17998" started-at="2018-08-14T12:22:39Z" finished-at="2018-08-14T12:22:57Z">
+        <test-method status="PASS" signature="ClientAdminUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ClientAdminUser" duration-ms="66870" started-at="2018-08-14T18:36:38Z" finished-at="2018-08-14T18:37:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ClientAdmin -->
-        <test-method status="FAIL" signature="Manager()[pri:0, instance:Verify.Login@8bd1b6a]" name="Manager" duration-ms="12232" started-at="2018-08-14T12:22:57Z" finished-at="2018-08-14T12:23:09Z">
+        </test-method> <!-- ClientAdminUser -->
+        <test-method status="FAIL" signature="ManagerUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ManagerUser" duration-ms="15656" started-at="2018-08-14T18:37:45Z" finished-at="2018-08-14T18:38:00Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
@@ -23,7 +23,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at Verify.Login.Manager(Login.java:38)
+	at Verify.Login.ManagerUser(Login.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,7 +53,7 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Manager -->
+        </test-method> <!-- ManagerUser -->
       </class> <!-- Verify.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
