@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60181" started-at="2018-08-14T06:36:37Z" finished-at="2018-08-14T06:37:37Z">
+  <suite name="Default suite" duration-ms="30368" started-at="2018-08-14T06:52:39Z" finished-at="2018-08-14T06:53:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60181" started-at="2018-08-14T06:36:37Z" finished-at="2018-08-14T06:37:37Z">
+    <test name="Default test" duration-ms="30368" started-at="2018-08-14T06:52:39Z" finished-at="2018-08-14T06:53:09Z">
       <class name="Verify.Login">
-        <test-method status="PASS" signature="case1()[pri:0, instance:Verify.Login@8bd1b6a]" name="case1" duration-ms="35986" started-at="2018-08-14T12:06:37Z" finished-at="2018-08-14T12:07:13Z">
+        <test-method status="PASS" signature="ClientAdmin()[pri:0, instance:Verify.Login@8bd1b6a]" name="ClientAdmin" duration-ms="17998" started-at="2018-08-14T12:22:39Z" finished-at="2018-08-14T12:22:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case1 -->
-        <test-method status="FAIL" signature="case2()[pri:0, instance:Verify.Login@8bd1b6a]" name="case2" duration-ms="24137" started-at="2018-08-14T12:07:13Z" finished-at="2018-08-14T12:07:37Z">
+        </test-method> <!-- ClientAdmin -->
+        <test-method status="FAIL" signature="Manager()[pri:0, instance:Verify.Login@8bd1b6a]" name="Manager" duration-ms="12232" started-at="2018-08-14T12:22:57Z" finished-at="2018-08-14T12:23:09Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
@@ -23,7 +23,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at Verify.Login.case2(Login.java:38)
+	at Verify.Login.Manager(Login.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -53,7 +53,7 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- case2 -->
+        </test-method> <!-- Manager -->
       </class> <!-- Verify.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
