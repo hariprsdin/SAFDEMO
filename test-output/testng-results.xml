@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="82761" started-at="2018-08-14T13:06:38Z" finished-at="2018-08-14T13:08:01Z">
+  <suite name="Default suite" duration-ms="38647" started-at="2018-09-05T06:53:50Z" finished-at="2018-09-05T06:54:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="82761" started-at="2018-08-14T13:06:38Z" finished-at="2018-08-14T13:08:01Z">
+    <test name="Default test" duration-ms="38647" started-at="2018-09-05T06:53:50Z" finished-at="2018-09-05T06:54:29Z">
       <class name="Verify.Login">
-        <test-method status="PASS" signature="ClientAdminUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ClientAdminUser" duration-ms="66870" started-at="2018-08-14T18:36:38Z" finished-at="2018-08-14T18:37:45Z">
+        <test-method status="PASS" signature="ClientAdminUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ClientAdminUser" duration-ms="27511" started-at="2018-09-05T12:23:50Z" finished-at="2018-09-05T12:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClientAdminUser -->
-        <test-method status="FAIL" signature="ManagerUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ManagerUser" duration-ms="15656" started-at="2018-08-14T18:37:45Z" finished-at="2018-08-14T18:38:00Z">
+        <test-method status="FAIL" signature="ManagerUser()[pri:0, instance:Verify.Login@8bd1b6a]" name="ManagerUser" duration-ms="11039" started-at="2018-09-05T12:24:18Z" finished-at="2018-09-05T12:24:29Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
